@@ -133,4 +133,4 @@ ker_res$tab  #0.017384059
 #Penalized regression
 load("C:/Users/Aparajita/Documents/KMeanC1.22.rda")
 glm_res=summarize_res(y_pred,y_test)
-res=glm_res$R2[1:140]
+
