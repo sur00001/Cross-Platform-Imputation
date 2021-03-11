@@ -3,6 +3,8 @@
 
 
 ################### Functions to find the glm results #################
+library(purrr)
+
 #alphas
 alphas = function(res.list){alphas=map_dbl(res.list, "al", .default = NA)}
 
